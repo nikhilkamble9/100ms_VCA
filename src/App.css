@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+body {
+  background-color: azure;
+}
+label {
+  text-align: initial;
+  margin: 10px 0px;
+}
+input#videoconf {
+  width: 110%;
+  padding: 5px;
+  font-size: inherit;
+}
+button {
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  width: 35%;
+  margin: auto;
+  margin-top: 5px;
+}
